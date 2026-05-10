@@ -1,0 +1,25 @@
+# Ignore python cache
+__pycache__/
+
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore large datasets
+/data/*.csv
+
+# Ignore local secret files
+secrets.json
+
+# Ignore Azure Functions local settings (contains secrets)
+local.settings.json
+
+# Ignore Java compiled files and build folders
+target/
+build/
+*.class
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
